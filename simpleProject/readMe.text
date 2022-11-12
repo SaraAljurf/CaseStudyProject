@@ -1,0 +1,36 @@
+-Assumptions:
+1)I assumed that the api returns the data and it is saved in JSON file then the implemented code reads the
+  transactions from that file.
+
+2) since the API only returns transaction date and amount without the status (debit or credit),
+  I assumed that all transactions are credit (positive)
+
+3) Since the case study doesn't focus on the backend side(the database side) based on what i understood ,so the 
+  focus is on the logic of the functions and to implement them on modular way for better testing, understanding
+  maintainance and usability, i made a simple project with html and javascript also it is easier for the deployment purpose.
+
+4) I used bootstrap for some styling purposes.Also i wrote the data in JSON since i assumed that the data returned by the API is in JSON . 
+
+
+-For a testable code :
+1) I made sure of the modularity in my code such that each function does one perpose and not complex (the functions as units)
+
+2) I made sure that the code (mainly in the html part) contains unique and clear identifiers.
+
+3) I made sure that the code is readable and simple .
+
+4) I made sure of the organization that every part in specific file (file for css , html, javascript) , the organization is important especially in 
+   big project that have multi pages and funtionalities.
+
+
+
+
+
+
+-What I was thinking for the case study : 
+1) I wanted to implement spring boot simple application (MVC) with controller and repository for transactions , but since the case study mentioned that I don't have to    develop
+   the api and i don't have the api url, I implemented it with ready data simulates the data that is retrieved by the API.
+
+2) If the application was spring boot application , i thinked about leting the configuation properties (like the url) to be dynamic in order to let the deployment process easier.
+
+3) I also wanted to use ready banking APIs like Plaid APIs to retrieve data but it requires more time and experience.

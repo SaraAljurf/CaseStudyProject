@@ -1,0 +1,34 @@
+
+    [
+        {
+            "transID":1021,
+            "amount":200,
+            "transDate":"1-10-2022"
+        
+        },
+        {
+            "transID":1022,
+            "amount":100,
+            "transDate":"4-10-2022"
+        },
+        {
+            "transID":1023,
+            "amount":150,
+            "transDate":"3-11-2022"
+        },
+        {
+            "transID":1024,
+            "amount":300,
+            "transDate":"6-11-2022"
+        },
+        {
+            "transID":1025,
+            "amount":50,
+            "transDate":"9-11-2022"
+        },
+        {
+            "transID":1026,
+            "amount":100,
+            "transDate":"10-11-2022"
+        }
+    ]

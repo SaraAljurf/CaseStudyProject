@@ -1,0 +1,22 @@
+.container-box {
+    margin: 10% auto auto auto;
+    width: 50%;
+    height: 50%;
+    border: 5px solid navy;
+    border-radius: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+#result{
+    margin: auto auto auto auto;
+    width: 30%;
+    border: 2px solid grey;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.actions-box{
+    margin: 2% auto auto auto;
+}
